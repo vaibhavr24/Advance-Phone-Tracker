@@ -15,6 +15,10 @@ Install opencage
   pip install opencage
 ```
 
+Install folium
+```bash
+  pip install folium
+```
 ## Authors
 
 - [@vaibhavr24](https://github.com/vaibhavr24)
