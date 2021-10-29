@@ -1,7 +1,7 @@
 
 # Advance Phone Tracker 
 
-Advance phone tracker that tells the country, carrier and exact location of the phone
+Advance phone tracker that tells the country, carrier and location of the phone
 ## Required Library
 
 
