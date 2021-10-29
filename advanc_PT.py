@@ -15,6 +15,9 @@ mainnum = ph.parse(number)
 cntloc = geocoder.description_for_number(mainnum,'en')
 serpro = carrier.name_for_number(mainnum,'en')
 
+print(cntloc)
+print(serpro)
+
 geocoder = OpenCageGeocode(key)
 
 query = str(cntloc)
@@ -25,7 +28,7 @@ rslt = geocoder.geocode(query)
 latitude = rslt[0]['geometry']['lat']
 longitude = rslt[0]['geometry']['lng']
 
-print(latitude,longitude)
+#print(latitude,longitude)
 
 mymap = folium.Map(location = [latitude,longitude],zm = 9)
 
